@@ -6,3 +6,9 @@ print(d.keys())
 print(d.values())
 print(d.items())
 print(d.update(age=23))
+#practice
+s = {"Name": "vv", "native": "vellore"}
+a = {}
+for v,b in s.items():
+	a[v] = b
+print(a)
