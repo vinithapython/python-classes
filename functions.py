@@ -1,28 +1,6 @@
-import secrets
-i = input("Enter your name:")
-print (i[::-1])
-a = secrets.token_hex()
-																					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def function():
+	print("hell")
+function()	
 
 
 
