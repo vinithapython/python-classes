@@ -41,10 +41,42 @@
 # def fun(s=10,a=10):
 #     return(s,a)
 # fun()
-def function(num=10):
-	print(num)
-function(20)	
+# def function(num=10):
+# 	print(num)
+# function(20)
+#write a function to print even numbers?
+# def evnnum(n):
+# 		for i in range(n):
+# 				if i % 2 == 0 :
+# 						print(i)
+# evnnum(100)
+ #hw							
+# def hw(n):
+# 	for i ,e in enumerate(a):
+# 		print(i,e)
+# a = ("shiva")
+# hw(enumerate)
+# function(5)
+# def function(v,k):
+# 	return(v.union(k))
+# print(function({0,1,2,3,4},{"shiva"}))
+# 05/05/2021
+# a = "shiva"
+# b = list (enumerate(a)) #method 1
+# print (b)
 
+# for x in enumerate("shiva"):   #method 2
+# 	print(x)
 
+# def multiple(a):
+# 	return 5 * a
+# print(multiple(1))
 
+def multiple(k,v):
+	value = []
+	for d in range(1,k + 1):
+		value.append(d * v)
+	return value
+print(multiple(10,5))
 
+ 
